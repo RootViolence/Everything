@@ -1,0 +1,322 @@
+*{
+    Margin:0;
+    padding: 0%;
+}
+body {
+    font-family: Arial, Verdana;
+    font-size: 16px;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font: size 32px;
+    color: red;
+    font-family: 'Courier New', Courier;
+}
+header { 
+    /* tamanho do header*/
+    height: 6vh;
+    /* ajeita a imagem do header */
+    display:flex;
+    justify-content: space-between;
+    background-color: #01275f;
+    width: 100%;
+    box-shadow: 0 5px 15px #cf1a1a;
+    opacity: 0.7;
+    border-radius: 10px 10px 80px 90px;
+}
+.centro {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+section {
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+/* Body Imagem */
+body {
+    background-image: url(imagens/berserkbackground.gif);
+    height: 135vh;
+    background-position: center;
+    background-size: cover;
+}
+ul {
+    display:flex;
+    margin: 23;
+}
+li {
+    color: #f8df01a8;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+#Background{
+    margin: 20px 180px 500px;
+    background-color: rgb(20, 19, 19);
+    padding-top: 15px;
+    height: 600vh;
+    width: 1000px;
+    opacity: 0.9;
+    background-position: center;
+    box-shadow: 0 0 15px #cf1a1a;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+#Ficha {
+    height: 450px;
+    text-align: center;
+    padding-left: 114px;
+    
+}
+#Sobre {
+    padding-top: 25px;
+    margin:center;
+    background-image: url(imagens/tentativa2);
+    height: 80vh;
+    width:80px;
+    color: rgb(185, 185, 185);
+    text-decoration: none;  
+}
+h1 {
+    color: red;
+    font-family: 'Courier New', Courier;
+    text-align:initial;
+}
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+strong {
+    color: RED;
+}
+.Personagem{
+    display: flex;
+    align-items: center;
+    padding-left: 470px;
+    justify-content: space-around;
+    padding-right: 0px;
+}
+#Personagens {
+    color: #f8df01a8;
+}
+#HeaderIC {
+    display: flex;
+align-items: center;
+z-index: FLEX;
+padding-right: 50px;
+font-size: 19px;
+font-weight: 600;
+border-bottom: 1px solid rgb(223, 9, 158);
+transition: all .55s ease;
+font-family: 'Courier New', Courier;
+}
+#HeaderIC:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+}
+a {
+    color: rgb(255, 0, 0);
+    background-color: rgb(143, 143, 146);
+    border-radius: 20px;
+    text-decoration: none;
+    opacity: 1;
+
+}
+o {
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #7a161e;
+    background-color: rgb(88, 4, 18);
+    text-decoration: none;
+    border-bottom: 1px solid #949494;
+    justify-content: center;
+    font-size: 100px;
+    margin:375px;
+    opacity: 1;
+    cursor: pointer;
+    transition: all .55s ease;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:2px;
+    color: gray;
+}
+o:hover {
+    border-radius: 20px;
+    border-bottom: 2px solid #949494;
+    background-color:#000000;
+    font-size: 115px;
+    margin: center;
+    color: #747474;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#Elementos{
+    color:white;
+    background-color: rgb(82, 81, 81);
+    width: 200px;
+    margin:80px;
+    border-radius: 40px 40px 40px;
+    box-shadow:10px 10px 10px #cf1a1a;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+#Elementos:hover{
+    height:280px;
+    width:240px;
+    font-size: 20px;
+    transition: all .55s ease;
+}
+
+.elementos2 {
+    color:white;
+    background-color: rgb(82, 81, 81);
+    width: 200px;
+    height: 255px;
+    margin:80px;
+    border-radius: 40px 40px 40px;
+    box-shadow:10px 10px 10px #cf1a5f;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+.elementos2:hover{
+    height:290px;
+    width:220px;
+    font-size: 20px;
+    transition: all .55s ease;
+}
+.elementos3 {
+    color:white;
+    background-color: rgb(82, 81, 81);
+    width: 210px;
+    height: 340px;
+    margin:-701px 400px 90px;
+    border-radius: 40px 40px 40px;
+    box-shadow:10px 10px 10px #9606da;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+.elementos3:hover {
+    height:360px;
+    width:240px;
+    font-size: 20px;
+    transition: all .55s ease;
+
+}
+.elementos4 {
+    color:white;
+    background-color: rgb(82, 81, 81);
+    width: 210px;
+    height: 289px;
+    margin:-430px 700px -100px;
+    border-radius: 40px 40px 40px;
+    box-shadow:10px 10px 10px #2e1ccc;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+.elementos4:hover {
+    height:320px;
+    width:240px;
+    font-size: 20px;
+    transition: all .55s ease;
+}
+.elementos5 {
+    color:white;
+    background-color: rgb(82, 81, 81);
+    width: 210px;
+    height: 250px;
+    margin:190px 400px -100px;
+    border-radius: 40px 40px 40px;
+    box-shadow:10px 10px 10px #01a2ec;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+.elementos5:hover {
+    height:280px;
+    width:240px;
+    font-size: 20px;
+    transition: all .55s ease;
+}
+.elementos6 {
+    color:white;
+    background-color: rgb(82, 81, 81);
+    width: 210px;
+    height: 283px;
+    margin: -250px 700px -100px;
+    border-radius: 40px 40px 40px;
+    box-shadow:10px 10px 10px #aa9a06;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+.elementos6:hover {
+    height:320px;
+    width:250px;
+    font-size: 20px;
+    transition: all .55s ease;
+}
+.container {
+    margin:-170px 0px 10px;
+    width: 5px;
+    height: 1.5px;
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+    0% {background-color: red; width: 5px;}
+    10% {background-color: #949494; width: 100px;}
+    20% {background-color: #7a161e; width: 150px}
+    30% {background-color: #caee00a8; width: 300px}
+    50% {background-color: #2e1ccc; width: 500px;}
+    80% {background-color: blueviolet; width: 800px;}
+    100% {background-color: deeppink; width: 1000px;}
+        
+}
+#RegrasDeJogo{
+    margin: 500px 0px 500px;
+}
+#Regras{
+    background: black;
+}
+.Aniquile {
+    width: 300px;
+    height: 100px;
+    background: rgb(88, 88, 88);
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 1000px 1000px 10px 10px;
+    box-shadow: 5px 4px 3px rgb(0, 0, 0);
+    color:rgb(231, 229, 229);
+    padding-left: 13px;
+}
+#Sobreviva {
+    height: 111px;
+    width: 270px;
+    background: rgb(88, 88, 88);
+    margin-bottom: 20px;
+    margin: 0px 644px 0px;
+    box-shadow: 5px px 3px rgb(0, 0, 0);
+    margin-right: 40px;
+    border-radius: 100px 1000px 100px 1000px;
+    color:rgb(233, 229, 229);
+    padding-left: 19px;
+    padding-right: 11px;
+}
+.Evolua {
+    border-bottom: solid 1px black;
+    color:rgb(235, 232, 232);
+    width: 300px;
+    height: 115px;
+    background: rgb(88, 88, 88);
+    margin-bottom: 20px;
+    margin: -130px 45px -10px;
+    border-radius: 1000px 100px 1000px 1px;
+    box-shadow:5px 4px 3px rgb(0, 0, 0);
+    padding-left: 13px;
+    padding-top: 3px;
+}
