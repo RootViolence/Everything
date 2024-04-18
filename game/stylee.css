@@ -1,0 +1,209 @@
+* {
+    font-family: "Pixelify Sans", sans-serif;
+}
+header{
+    background-color: rgb(25, 0, 83);
+    height: 6%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0px 0px 30px 30px;
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px 1px rgb(107, 106, 106);
+
+}
+header p {
+    font-size: 40px;
+    color: rgb(92, 4, 4);
+    padding-left: 15%;
+    padding-bottom: 0%;
+    margin: 0px -50px 100px 0px;
+}
+body {
+    text-decoration: none;
+    background-color: gray;
+    background-image: url(cyberpunk-gif.gif);
+    background-size: 100%;
+}
+nav li {
+    justify-content: space-around;
+    align-items: center;
+    display: inline-block;
+    list-style:none;
+    font-size: 25px;
+    margin: 0px 35px 0px 0px;
+    color: red;
+    background-color: rgb(61, 59, 59);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(95, 95, 95);
+    transition: all .25s ease;
+}
+nav ul {
+    margin: -10% 0% -15% 60%;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+nav li:hover {
+    box-shadow: 1px 1px 1px 1px rgb(158, 1, 1);
+}
+nav a:hover {
+    color: rgb(158, 1, 1);
+
+}
+.sobre {
+    background-color: rgb(0, 54, 136);
+    height: 30vh;
+    width: 60%;
+    opacity: 0.9;
+    margin: 0% 19%;
+    margin-top:20%;
+    box-shadow: 1px 1px 1px 3px rgb(105, 105, 255);
+}
+.sobre h2{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(160, 0, 0);
+}
+.sobre p{
+    text-align: center;
+    font-size: 110%;
+}
+.sobre a {
+    background-color: rgb(61, 59, 59);
+    transition: all .80s, ease;
+    text-decoration: none;
+    font-size: 300%;
+    margin: 43%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 1px 1px 1px 1px rgb(184, 184, 184);
+    color: rgb(177, 177, 177);
+}
+.sobre a:hover{
+    color: red;
+    box-shadow: 1px 1px 1px 2px red;
+}
+.personagens {
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    margin: 0% 19%;
+    background-color: rgb(0, 54, 136);
+    box-shadow: 1px 1px 1px 3px rgb(105, 105, 255);
+    opacity: 0.9;
+}
+.personagens h2 {
+    color: rgb(160, 0, 0);
+    font-size: 200%
+}
+.personagens p {
+    font-size: 110%;
+}
+.regras {
+    text-align: center;
+    height: 40vh;
+    width: 60%;
+    margin: 0% 19%;
+    background-color: rgb(0, 54, 136);
+    box-shadow: 1px 1px 1px 3px rgb(105, 105, 255);
+    opacity: 0.9;
+}
+.regras p {
+    font-size: 110%;
+}
+.trilhasonora{
+    text-align: center;
+    height: 35%;
+    width: 60%;
+    margin: 0% 19%;
+    background-color: rgb(0, 54, 136);
+    box-shadow: 1px 1px 1px 3px rgb(105, 105, 255);
+    opacity: 0.9;
+}
+.trilhasonora p{
+    font-size: 110%;
+}
+#sobreviva {
+    background-color: rgb(2, 44, 107);
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: 1px 1px 1px 1px white;
+    font-size: 110%;
+    width: 20%;
+    margin: 0% 0% 0% 10%;
+    transition: all .55s ease;  
+}
+#extermine {
+    width: 20%;
+    background-color: rgb(2, 44, 107);
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: 1px 1px 1px 1px white;
+    font-size: 110%;
+    margin: -14% 0% 0% 40%;
+    transition: all .55s ease;
+
+}
+strong {
+    color: red;
+}
+#extermine:hover {
+    box-shadow: 1px 1px 1px 1px RED;
+    font-size: 115%;
+}
+#sobreviva:hover {
+    box-shadow: 1px 1px 1px 1px RED;
+    font-size: 115%;
+}
+h2 {font-size: 200%;
+    color: rgb(160, 0, 0);}
+#void img {
+    width: 25%;
+}
+#inimigos img {
+    width: 25%;
+}
+#espada {
+    width: 20%;
+    background-color: rgb(2, 44, 107);
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: 1px 1px 1px 1px white;
+    font-size: 110%;
+    margin: -14% 0% 0% 70%;
+    transition: all .55s ease;
+
+}
+#espada:hover {
+    box-shadow: 1px 1px 1px 1px RED;
+    font-size: 115%;
+}
+#Ficha {
+    background-color: rgb(0, 54, 136);
+    height: 40vh;
+    width: 60%;
+    opacity: 0.9;
+    margin: 0% 19%;
+    margin-top:5%;
+    box-shadow: 1px 1px 1px 3px rgb(105, 105, 255);
+}
+#Ficha h2 {
+    align-items: center;
+    padding-left: 37%;
+}
+#Ficha img {
+    width: 20%;
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: -26% 10% 20% 40%;
+}
+.dev {
+    background-color: rgb(0, 54, 136);
+    height: 50vh;
+    width: 60%;
+    opacity: 0.9;
+    margin: 0% 19%;
+    margin-top:10%;
+    box-shadow: 1px 1px 1px 3px rgb(105, 105, 255);
+}
